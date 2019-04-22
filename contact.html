@@ -23,21 +23,22 @@
 
 <body>
 
-<div class="spacial-controls">
-	<div class="nav-switch-warp">
-		<div class="nav-switch">
-			<div class="ns-bar"></div>
+	<div class="spacial-controls">
+		<div class="nav-switch-warp">
+			<div class="nav-switch">
+				<div class="ns-bar"></div>
+			</div>
 		</div>
 	</div>
-</div>
-<br>
-<br>
-<br>
+	<br>
+	<br>
+	<br>
 
 	<div class="main-warp">
 		<header class="header-section">
 			<div class="header-warp">
 				<br>
+
 				<ul class="main-menu">
 					<li class="active"><a href="./index.html">Home</a></li>
 					<li><a href="./project.html">Projects</a></li>
@@ -45,31 +46,51 @@
 					<li><a href="./contact.html">Hire Francis</a></li>
 				</ul>
 			</div>
-
 		</header>
 
-		<div class="page-section home-page">
-			<div class="hero-slider owl-carousel">
-				<div class="slider-item d-flex align-items-center set-bg" data-setbg="img/background.jpeg" data-hash="slide-1">
-					<div class="si-text-box">
-						<h2>About Me</h2>
-						<p>
-							The current technological conditions we are facing with during
-							our current day to day situation one is left to wonder,If you were
-							to remain static without learning for a period of like 5 years what
-							will be the difference between you and the generation of people who
-							retired. With that kind of thought you are left with one option which
-							is continue up skilling your knowledge. That's is why i decided to
-							find the best coding school in Nairobi. Apart from coding i am very
-							passionate in guiding and mentoring the young generation through
-							knowledge transfer from the vast experience i have gained over the years.
-						</p>
-					</div>
+		<!-- Page section -->
+		<div class="container-fluid">
+			<section id="contact">
+				<div class="section-content">
+					<h1 class="section-header">Get in <span class="content-header wow fadeIn " data-wow-delay="0.2s" data-wow-duration="2s"> Touch</span></h1>
 				</div>
-			</div>
+				<div class="contact-section">
+					<div class="container">
+						<form action="https://formspree.io/fkaragu@gmail.com" method="POST">
+							<div class="col-md-6 form-line">
+								<div class="form-group">
+									<label for="exampleInputUsername">Your name</label>
+									<input type="text" class="form-control" id="" placeholder="Name">
+								</div>
+								<div class="form-group">
+									<label for="exampleInputEmail">Email Address</label>
+									<input type="email" class="form-control" id="exampleInputEmail" placeholder="Email">
+								</div>
+								<div class="form-group">
+									<label for="telephone">Mobile No.</label>
+									<input type="tel" class="form-control" id="telephone" placeholder="mobile no.">
+								</div>
+							</div>
+							<div class="col-md-6">
+								<div class="form-group">
+									<label for="description"> Message</label>
+									<textarea class="form-control" id="description" placeholder="Message"></textarea>
+								</div>
+								<div>
+									<button type="submit" value="Send" class="btn btn-default submit"><i class="fa fa-paper-plane" aria-hidden="true"></i>Send Message</button>
+								</div>
+
+							</div>
+						</form>
+					</div>
+			</section>
 		</div>
+
 	</div>
 
+
+
+	<!--====== Javascripts & Jquery ======-->
 	<script src="js/jquery-3.2.1.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
 	<script src="js/owl.carousel.min.js"></script>
@@ -80,4 +101,5 @@
 	<script src="js/main.js"></script>
 
 </body>
+
 </html>
